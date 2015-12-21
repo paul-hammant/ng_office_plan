@@ -1,145 +1,154 @@
 <!DOCTYPE html>
-<html lang="en-us">
+<html ng-app="project" lang="en-us">
   <head>
     <meta charset="UTF-8">
     <title>Ng office plan by paul-hammant</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/angular.js"></script>
+    <script src="js/angular-resource.js"></script>
+    <script src="project.js"></script>
+  <body ng-controller="TheController">
+  <h1>Senate of Canada 2015 seating plan</h1>
+  (<a href="https://upload.wikimedia.org/wikipedia/commons/d/d5/Senate_of_Canada_2015_seating_plan.svg">from wikipedia</a>)<br/>
 
-  <body>
-<h1>Senate of Canada 2015 seating plan</h1>
-(<a href="https://upload.wikimedia.org/wikipedia/commons/d/d5/Senate_of_Canada_2015_seating_plan.svg">from wikipedia</a>)<br/>
-<svg xmlns:svg="http://www.w3.org/2000/svg"
-xmlns="http://www.w3.org/2000/svg" version="1.1"
-width="360.0" height="137.3">
-<!-- Created with the Wikimedia westminster parliament diagram creator (http://tools.wmflabs.org/parliamentdiagram/westminsterinputform.html) -->
-<g id="diagram">
-  <g id="headbench">
-  <g style="fill:#6495ED" id="Party 1">
-    <rect x="5.7955" y="61.4773" rx="0.00" ry="0.00" width="14.32" height="14.32"/>
-  </g>
-  </g>
-  <g id="leftbench">
-  <g style="fill:#9999FF" id="Party 3">
-    <rect x="21.7045" y="37.6136" rx="0.00" ry="0.00" width="14.32" height="14.32"/>
-  </g>
-  <g style="fill:#EA6D6A" id="Party 4">
-    <rect x="21.7045" y="21.7045" rx="0.00" ry="0.00" width="14.32" height="14.32"/>
-    <rect x="21.7045" y="5.7955" rx="0.00" ry="0.00" width="14.32" height="14.32"/>
-    <rect x="37.6136" y="37.6136" rx="0.00" ry="0.00" width="14.32" height="14.32"/>
-    <rect x="37.6136" y="21.7045" rx="0.00" ry="0.00" width="14.32" height="14.32"/>
-    <rect x="37.6136" y="5.7955" rx="0.00" ry="0.00" width="14.32" height="14.32"/>
-    <rect x="53.5227" y="37.6136" rx="0.00" ry="0.00" width="14.32" height="14.32"/>
-    <rect x="53.5227" y="21.7045" rx="0.00" ry="0.00" width="14.32" height="14.32"/>
-    <rect x="53.5227" y="5.7955" rx="0.00" ry="0.00" width="14.32" height="14.32"/>
-    <rect x="69.4318" y="37.6136" rx="0.00" ry="0.00" width="14.32" height="14.32"/>
-    <rect x="69.4318" y="21.7045" rx="0.00" ry="0.00" width="14.32" height="14.32"/>
-    <rect x="69.4318" y="5.7955" rx="0.00" ry="0.00" width="14.32" height="14.32"/>
-    <rect x="85.3409" y="37.6136" rx="0.00" ry="0.00" width="14.32" height="14.32"/>
-    <rect x="85.3409" y="21.7045" rx="0.00" ry="0.00" width="14.32" height="14.32"/>
-    <rect x="85.3409" y="5.7955" rx="0.00" ry="0.00" width="14.32" height="14.32"/>
-    <rect x="101.2500" y="37.6136" rx="0.00" ry="0.00" width="14.32" height="14.32"/>
-    <rect x="101.2500" y="21.7045" rx="0.00" ry="0.00" width="14.32" height="14.32"/>
-    <rect x="101.2500" y="5.7955" rx="0.00" ry="0.00" width="14.32" height="14.32"/>
-    <rect x="117.1591" y="37.6136" rx="0.00" ry="0.00" width="14.32" height="14.32"/>
-    <rect x="117.1591" y="21.7045" rx="0.00" ry="0.00" width="14.32" height="14.32"/>
-    <rect x="117.1591" y="5.7955" rx="0.00" ry="0.00" width="14.32" height="14.32"/>
-    <rect x="133.0682" y="37.6136" rx="0.00" ry="0.00" width="14.32" height="14.32"/>
-    <rect x="133.0682" y="21.7045" rx="0.00" ry="0.00" width="14.32" height="14.32"/>
-    <rect x="133.0682" y="5.7955" rx="0.00" ry="0.00" width="14.32" height="14.32"/>
-    <rect x="148.9773" y="37.6136" rx="0.00" ry="0.00" width="14.32" height="14.32"/>
-    <rect x="148.9773" y="21.7045" rx="0.00" ry="0.00" width="14.32" height="14.32"/>
-    <rect x="148.9773" y="5.7955" rx="0.00" ry="0.00" width="14.32" height="14.32"/>
-    <rect x="164.8864" y="37.6136" rx="0.00" ry="0.00" width="14.32" height="14.32"/>
-    <rect x="164.8864" y="21.7045" rx="0.00" ry="0.00" width="14.32" height="14.32"/>
-    <rect x="164.8864" y="5.7955" rx="0.00" ry="0.00" width="14.32" height="14.32"/>
-  </g>
-  <g style="fill:#858585" id="Party 5">
-    <rect x="180.7955" y="37.6136" rx="0.00" ry="0.00" width="14.32" height="14.32"/>
-    <rect x="180.7955" y="21.7045" rx="0.00" ry="0.00" width="14.32" height="14.32"/>
-    <rect x="180.7955" y="5.7955" rx="0.00" ry="0.00" width="14.32" height="14.32"/>
-    <rect x="196.7045" y="37.6136" rx="0.00" ry="0.00" width="14.32" height="14.32"/>
-    <rect x="196.7045" y="21.7045" rx="0.00" ry="0.00" width="14.32" height="14.32"/>
-    <rect x="196.7045" y="5.7955" rx="0.00" ry="0.00" width="14.32" height="14.32"/>
-  </g>
-  </g>
-  <g id="rightbench">
-  <g style="fill:#6495ED" id="Party 2">
-    <rect x="21.7045" y="85.3409" rx="0.00" ry="0.00" width="14.32" height="14.32"/>
-    <rect x="21.7045" y="101.2500" rx="0.00" ry="0.00" width="14.32" height="14.32"/>
-    <rect x="21.7045" y="117.1591" rx="0.00" ry="0.00" width="14.32" height="14.32"/>
-    <rect x="37.6136" y="85.3409" rx="0.00" ry="0.00" width="14.32" height="14.32"/>
-    <rect x="37.6136" y="101.2500" rx="0.00" ry="0.00" width="14.32" height="14.32"/>
-    <rect x="37.6136" y="117.1591" rx="0.00" ry="0.00" width="14.32" height="14.32"/>
-    <rect x="53.5227" y="85.3409" rx="0.00" ry="0.00" width="14.32" height="14.32"/>
-    <rect x="53.5227" y="101.2500" rx="0.00" ry="0.00" width="14.32" height="14.32"/>
-    <rect x="53.5227" y="117.1591" rx="0.00" ry="0.00" width="14.32" height="14.32"/>
-    <rect x="69.4318" y="85.3409" rx="0.00" ry="0.00" width="14.32" height="14.32"/>
-    <rect x="69.4318" y="101.2500" rx="0.00" ry="0.00" width="14.32" height="14.32"/>
-    <rect x="69.4318" y="117.1591" rx="0.00" ry="0.00" width="14.32" height="14.32"/>
-    <rect x="85.3409" y="85.3409" rx="0.00" ry="0.00" width="14.32" height="14.32"/>
-    <rect x="85.3409" y="101.2500" rx="0.00" ry="0.00" width="14.32" height="14.32"/>
-    <rect x="85.3409" y="117.1591" rx="0.00" ry="0.00" width="14.32" height="14.32"/>
-    <rect x="101.2500" y="85.3409" rx="0.00" ry="0.00" width="14.32" height="14.32"/>
-    <rect x="101.2500" y="101.2500" rx="0.00" ry="0.00" width="14.32" height="14.32"/>
-    <rect x="101.2500" y="117.1591" rx="0.00" ry="0.00" width="14.32" height="14.32"/>
-    <rect x="117.1591" y="85.3409" rx="0.00" ry="0.00" width="14.32" height="14.32"/>
-    <rect x="117.1591" y="101.2500" rx="0.00" ry="0.00" width="14.32" height="14.32"/>
-    <rect x="117.1591" y="117.1591" rx="0.00" ry="0.00" width="14.32" height="14.32"/>
-    <rect x="133.0682" y="85.3409" rx="0.00" ry="0.00" width="14.32" height="14.32"/>
-    <rect x="133.0682" y="101.2500" rx="0.00" ry="0.00" width="14.32" height="14.32"/>
-    <rect x="133.0682" y="117.1591" rx="0.00" ry="0.00" width="14.32" height="14.32"/>
-    <rect x="148.9773" y="85.3409" rx="0.00" ry="0.00" width="14.32" height="14.32"/>
-    <rect x="148.9773" y="101.2500" rx="0.00" ry="0.00" width="14.32" height="14.32"/>
-    <rect x="148.9773" y="117.1591" rx="0.00" ry="0.00" width="14.32" height="14.32"/>
-    <rect x="164.8864" y="85.3409" rx="0.00" ry="0.00" width="14.32" height="14.32"/>
-    <rect x="164.8864" y="101.2500" rx="0.00" ry="0.00" width="14.32" height="14.32"/>
-    <rect x="164.8864" y="117.1591" rx="0.00" ry="0.00" width="14.32" height="14.32"/>
-    <rect x="180.7955" y="85.3409" rx="0.00" ry="0.00" width="14.32" height="14.32"/>
-    <rect x="180.7955" y="101.2500" rx="0.00" ry="0.00" width="14.32" height="14.32"/>
-    <rect x="180.7955" y="117.1591" rx="0.00" ry="0.00" width="14.32" height="14.32"/>
-    <rect x="196.7045" y="85.3409" rx="0.00" ry="0.00" width="14.32" height="14.32"/>
-    <rect x="196.7045" y="101.2500" rx="0.00" ry="0.00" width="14.32" height="14.32"/>
-    <rect x="196.7045" y="117.1591" rx="0.00" ry="0.00" width="14.32" height="14.32"/>
-    <rect x="212.6136" y="85.3409" rx="0.00" ry="0.00" width="14.32" height="14.32"/>
-    <rect x="212.6136" y="101.2500" rx="0.00" ry="0.00" width="14.32" height="14.32"/>
-    <rect x="212.6136" y="117.1591" rx="0.00" ry="0.00" width="14.32" height="14.32"/>
-    <rect x="228.5227" y="85.3409" rx="0.00" ry="0.00" width="14.32" height="14.32"/>
-    <rect x="228.5227" y="101.2500" rx="0.00" ry="0.00" width="14.32" height="14.32"/>
-    <rect x="228.5227" y="117.1591" rx="0.00" ry="0.00" width="14.32" height="14.32"/>
-    <rect x="244.4318" y="85.3409" rx="0.00" ry="0.00" width="14.32" height="14.32"/>
-    <rect x="244.4318" y="101.2500" rx="0.00" ry="0.00" width="14.32" height="14.32"/>
-    <rect x="244.4318" y="117.1591" rx="0.00" ry="0.00" width="14.32" height="14.32"/>
-    <rect x="260.3409" y="85.3409" rx="0.00" ry="0.00" width="14.32" height="14.32"/>
-    <rect x="260.3409" y="101.2500" rx="0.00" ry="0.00" width="14.32" height="14.32"/>
-    <rect x="260.3409" y="117.1591" rx="0.00" ry="0.00" width="14.32" height="14.32"/>
-    <rect x="276.2500" y="85.3409" rx="0.00" ry="0.00" width="14.32" height="14.32"/>
-  </g>
-  </g>
-  <g id="centerbench">
-  <g style="fill:#E6E6E6" id="Party 6">
-    <rect x="308.0682" y="13.7500" rx="0.00" ry="0.00" width="14.32" height="14.32"/>
-    <rect x="323.9773" y="13.7500" rx="0.00" ry="0.00" width="14.32" height="14.32"/>
-    <rect x="339.8864" y="21.7045" rx="0.00" ry="0.00" width="14.32" height="14.32"/>
-    <rect x="308.0682" y="29.6591" rx="0.00" ry="0.00" width="14.32" height="14.32"/>
-    <rect x="323.9773" y="29.6591" rx="0.00" ry="0.00" width="14.32" height="14.32"/>
-    <rect x="339.8864" y="37.6136" rx="0.00" ry="0.00" width="14.32" height="14.32"/>
-    <rect x="308.0682" y="45.5682" rx="0.00" ry="0.00" width="14.32" height="14.32"/>
-    <rect x="323.9773" y="45.5682" rx="0.00" ry="0.00" width="14.32" height="14.32"/>
-    <rect x="339.8864" y="53.5227" rx="0.00" ry="0.00" width="14.32" height="14.32"/>
-    <rect x="308.0682" y="61.4773" rx="0.00" ry="0.00" width="14.32" height="14.32"/>
-    <rect x="323.9773" y="61.4773" rx="0.00" ry="0.00" width="14.32" height="14.32"/>
-    <rect x="339.8864" y="69.4318" rx="0.00" ry="0.00" width="14.32" height="14.32"/>
-    <rect x="308.0682" y="77.3864" rx="0.00" ry="0.00" width="14.32" height="14.32"/>
-    <rect x="323.9773" y="77.3864" rx="0.00" ry="0.00" width="14.32" height="14.32"/>
-    <rect x="339.8864" y="85.3409" rx="0.00" ry="0.00" width="14.32" height="14.32"/>
-    <rect x="308.0682" y="93.2955" rx="0.00" ry="0.00" width="14.32" height="14.32"/>
-    <rect x="323.9773" y="93.2955" rx="0.00" ry="0.00" width="14.32" height="14.32"/>
-    <rect x="339.8864" y="101.2500" rx="0.00" ry="0.00" width="14.32" height="14.32"/>
-    <rect x="308.0682" y="109.2045" rx="0.00" ry="0.00" width="14.32" height="14.32"/>
-    <rect x="323.9773" y="109.2045" rx="0.00" ry="0.00" width="14.32" height="14.32"/>
-  </g>
-  </g>
-</g>
-</svg>
-
+  <span>Find seat for: </span><input name="find" ng-model="find" required><br/>
+  <svg xmlns:svg="http://www.w3.org/2000/svg"
+       xmlns="http://www.w3.org/2000/svg" version="1.1"
+       width="360.0" height="137.3">
+    <!-- Created with the Wikimedia westminster parliament diagram creator (http://tools.wmflabs.org/parliamentdiagram/westminsterinputform.html) -->
+    <g id="diagram">
+      <g id="headbench">
+        <g style="fill:#6495ED" id="Party 1">
+          <rect x="5.7955" y="61.4773" rx="0.00" ry="0.00" width="14.32" height="14.32" ng-click="show(1)" ng-attr-style="{{!matches(1) && const.reduceOpacity}}"><title>{{seats["1"].name}}</title></rect>
+        </g>
+      </g>
+      <g id="leftbench">
+        <g style="fill:#9999FF" id="Party 3">
+          <rect x="21.7045" y="37.6136" rx="0.00" ry="0.00" width="14.32" height="14.32" ng-click="show(2)" ng-attr-style="{{!matches(2) && const.reduceOpacity}}"><title>{{seats["2"].name}}</title></rect>
+        </g>
+        <g style="fill:#EA6D6A" id="Party 4">
+          <rect x="21.7045" y="21.7045" rx="0.00" ry="0.00" width="14.32" height="14.32" ng-click="show(3)" ng-attr-style="{{!matches(3) && const.reduceOpacity}}"><title>{{seats["3"].name}}</title></rect>
+          <rect x="21.7045" y="5.7955" rx="0.00" ry="0.00" width="14.32" height="14.32" ng-click="show(4)" ng-attr-style="{{!matches(4) && const.reduceOpacity}}"><title>{{seats["4"].name}}</title></rect>
+          <rect x="37.6136" y="37.6136" rx="0.00" ry="0.00" width="14.32" height="14.32" ng-click="show(5)" ng-attr-style="{{!matches(5) && const.reduceOpacity}}"><title>{{seats["5"].name}}</title></rect>
+          <rect x="37.6136" y="21.7045" rx="0.00" ry="0.00" width="14.32" height="14.32" ng-click="show(6)" ng-attr-style="{{!matches(6) && const.reduceOpacity}}"><title>{{seats["6"].name}}</title></rect>
+          <rect x="37.6136" y="5.7955" rx="0.00" ry="0.00" width="14.32" height="14.32" ng-click="show(7)" ng-attr-style="{{!matches(7) && const.reduceOpacity}}"><title>{{seats["7"].name}}</title></rect>
+          <rect x="53.5227" y="37.6136" rx="0.00" ry="0.00" width="14.32" height="14.32" ng-click="show(8)" ng-attr-style="{{!matches(8) && const.reduceOpacity}}"><title>{{seats["8"].name}}</title></rect>
+          <rect x="53.5227" y="21.7045" rx="0.00" ry="0.00" width="14.32" height="14.32" ng-click="show(9)" ng-attr-style="{{!matches(9) && const.reduceOpacity}}"><title>{{seats["9"].name}}</title></rect>
+          <rect x="53.5227" y="5.7955" rx="0.00" ry="0.00" width="14.32" height="14.32" ng-click="show(10)" ng-attr-style="{{!matches(10) && const.reduceOpacity}}"><title>{{seats["10"].name}}</title></rect>
+          <rect x="69.4318" y="37.6136" rx="0.00" ry="0.00" width="14.32" height="14.32" ng-click="show(11)" ng-attr-style="{{!matches(11) && const.reduceOpacity}}"><title>{{seats["11"].name}}</title></rect>
+          <rect x="69.4318" y="21.7045" rx="0.00" ry="0.00" width="14.32" height="14.32" ng-click="show(12)" ng-attr-style="{{!matches(12) && const.reduceOpacity}}"><title>{{seats["12"].name}}</title></rect>
+          <rect x="69.4318" y="5.7955" rx="0.00" ry="0.00" width="14.32" height="14.32" ng-click="show(13)" ng-attr-style="{{!matches(13) && const.reduceOpacity}}"><title>{{seats["13"].name}}</title></rect>
+          <rect x="85.3409" y="37.6136" rx="0.00" ry="0.00" width="14.32" height="14.32" ng-click="show(14)" ng-attr-style="{{!matches(14) && const.reduceOpacity}}"><title>{{seats["14"].name}}</title></rect>
+          <rect x="85.3409" y="21.7045" rx="0.00" ry="0.00" width="14.32" height="14.32" ng-click="show(15)" ng-attr-style="{{!matches(15) && const.reduceOpacity}}"><title>{{seats["15"].name}}</title></rect>
+          <rect x="85.3409" y="5.7955" rx="0.00" ry="0.00" width="14.32" height="14.32" ng-click="show(16)" ng-attr-style="{{!matches(16) && const.reduceOpacity}}"><title>{{seats["16"].name}}</title></rect>
+          <rect x="101.2500" y="37.6136" rx="0.00" ry="0.00" width="14.32" height="14.32" ng-click="show(17)" ng-attr-style="{{!matches(17) && const.reduceOpacity}}"><title>{{seats["17"].name}}</title></rect>
+          <rect x="101.2500" y="21.7045" rx="0.00" ry="0.00" width="14.32" height="14.32" ng-click="show(18)" ng-attr-style="{{!matches(18) && const.reduceOpacity}}"><title>{{seats["18"].name}}</title></rect>
+          <rect x="101.2500" y="5.7955" rx="0.00" ry="0.00" width="14.32" height="14.32" ng-click="show(19)" ng-attr-style="{{!matches(19) && const.reduceOpacity}}"><title>{{seats["19"].name}}</title></rect>
+          <rect x="117.1591" y="37.6136" rx="0.00" ry="0.00" width="14.32" height="14.32" ng-click="show(20)" ng-attr-style="{{!matches(20) && const.reduceOpacity}}"><title>{{seats["20"].name}}</title></rect>
+          <rect x="117.1591" y="21.7045" rx="0.00" ry="0.00" width="14.32" height="14.32" ng-click="show(21)" ng-attr-style="{{!matches(21) && const.reduceOpacity}}"><title>{{seats["21"].name}}</title></rect>
+          <rect x="117.1591" y="5.7955" rx="0.00" ry="0.00" width="14.32" height="14.32" ng-click="show(22)" ng-attr-style="{{!matches(22) && const.reduceOpacity}}"><title>{{seats["22"].name}}</title></rect>
+          <rect x="133.0682" y="37.6136" rx="0.00" ry="0.00" width="14.32" height="14.32" ng-click="show(23)" ng-attr-style="{{!matches(23) && const.reduceOpacity}}"><title>{{seats["23"].name}}</title></rect>
+          <rect x="133.0682" y="21.7045" rx="0.00" ry="0.00" width="14.32" height="14.32" ng-click="show(24)" ng-attr-style="{{!matches(24) && const.reduceOpacity}}"><title>{{seats["24"].name}}</title></rect>
+          <rect x="133.0682" y="5.7955" rx="0.00" ry="0.00" width="14.32" height="14.32" ng-click="show(25)" ng-attr-style="{{!matches(25) && const.reduceOpacity}}"><title>{{seats["25"].name}}</title></rect>
+          <rect x="148.9773" y="37.6136" rx="0.00" ry="0.00" width="14.32" height="14.32" ng-click="show(26)" ng-attr-style="{{!matches(26) && const.reduceOpacity}}"><title>{{seats["26"].name}}</title></rect>
+          <rect x="148.9773" y="21.7045" rx="0.00" ry="0.00" width="14.32" height="14.32" ng-click="show(27)" ng-attr-style="{{!matches(27) && const.reduceOpacity}}"><title>{{seats["27"].name}}</title></rect>
+          <rect x="148.9773" y="5.7955" rx="0.00" ry="0.00" width="14.32" height="14.32" ng-click="show(28)" ng-attr-style="{{!matches(26) && const.reduceOpacity}}"><title>{{seats["28"].name}}</title></rect>
+          <rect x="164.8864" y="37.6136" rx="0.00" ry="0.00" width="14.32" height="14.32" ng-click="show(29)" ng-attr-style="{{!matches(29) && const.reduceOpacity}}"><title>{{seats["29"].name}}</title></rect>
+          <rect x="164.8864" y="21.7045" rx="0.00" ry="0.00" width="14.32" height="14.32" ng-click="show(30)" ng-attr-style="{{!matches(30) && const.reduceOpacity}}"><title>{{seats["30"].name}}</title></rect>
+          <rect x="164.8864" y="5.7955" rx="0.00" ry="0.00" width="14.32" height="14.32" ng-click="show(31)" ng-attr-style="{{!matches(31) && const.reduceOpacity}}"><title>{{seats["31"].name}}</title></rect>
+        </g>
+        <g style="fill:#858585" id="Party 5">
+          <rect x="180.7955" y="37.6136" rx="0.00" ry="0.00" width="14.32" height="14.32" ng-click="show(32)" ng-attr-style="{{!matches(32) && const.reduceOpacity}}"><title>{{seats["32"].name}}</title></rect>
+          <rect x="180.7955" y="21.7045" rx="0.00" ry="0.00" width="14.32" height="14.32" ng-click="show(33)" ng-attr-style="{{!matches(33) && const.reduceOpacity}}"><title>{{seats["33"].name}}</title></rect>
+          <rect x="180.7955" y="5.7955" rx="0.00" ry="0.00" width="14.32" height="14.32" ng-click="show(34)" ng-attr-style="{{!matches(34) && const.reduceOpacity}}"><title>{{seats["34"].name}}</title></rect>
+          <rect x="196.7045" y="37.6136" rx="0.00" ry="0.00" width="14.32" height="14.32" ng-click="show(35)" ng-attr-style="{{!matches(35) && const.reduceOpacity}}"><title>{{seats["35"].name}}</title></rect>
+          <rect x="196.7045" y="21.7045" rx="0.00" ry="0.00" width="14.32" height="14.32" ng-click="show(36)" ng-attr-style="{{!matches(36) && const.reduceOpacity}}"><title>{{seats["36"].name}}</title></rect>
+          <rect x="196.7045" y="5.7955" rx="0.00" ry="0.00" width="14.32" height="14.32" ng-click="show(37)" ng-attr-style="{{!matches(37) && const.reduceOpacity}}"><title>{{seats["37"].name}}</title></rect>
+        </g>
+      </g>
+      <g id="rightbench">
+        <g style="fill:#6495ED" id="Party 2">
+          <rect x="21.7045" y="85.3409" rx="0.00" ry="0.00" width="14.32" height="14.32" ng-click="show(38)" ng-attr-style="{{!matches(38) && const.reduceOpacity}}"><title>{{seats["38"].name}}</title></rect>
+          <rect x="21.7045" y="101.2500" rx="0.00" ry="0.00" width="14.32" height="14.32" ng-click="show(39)" ng-attr-style="{{!matches(39) && const.reduceOpacity}}"><title>{{seats["39"].name}}</title></rect>
+          <rect x="21.7045" y="117.1591" rx="0.00" ry="0.00" width="14.32" height="14.32" ng-click="show(40)" ng-attr-style="{{!matches(40) && const.reduceOpacity}}"><title>{{seats["40"].name}}</title></rect>
+          <rect x="37.6136" y="85.3409" rx="0.00" ry="0.00" width="14.32" height="14.32" ng-click="show(41)" ng-attr-style="{{!matches(41) && const.reduceOpacity}}"><title>{{seats["41"].name}}</title></rect>
+          <rect x="37.6136" y="101.2500" rx="0.00" ry="0.00" width="14.32" height="14.32" ng-click="show(42)" ng-attr-style="{{!matches(42) && const.reduceOpacity}}"><title>{{seats["42"].name}}</title></rect>
+          <rect x="37.6136" y="117.1591" rx="0.00" ry="0.00" width="14.32" height="14.32" ng-click="show(43)" ng-attr-style="{{!matches(43) && const.reduceOpacity}}"><title>{{seats["43"].name}}</title></rect>
+          <rect x="53.5227" y="85.3409" rx="0.00" ry="0.00" width="14.32" height="14.32" ng-click="show(44)" ng-attr-style="{{!matches(44) && const.reduceOpacity}}"><title>{{seats["44"].name}}</title></rect>
+          <rect x="53.5227" y="101.2500" rx="0.00" ry="0.00" width="14.32" height="14.32" ng-click="show(45)" ng-attr-style="{{!matches(45) && const.reduceOpacity}}"><title>{{seats["45"].name}}</title></rect>
+          <rect x="53.5227" y="117.1591" rx="0.00" ry="0.00" width="14.32" height="14.32" ng-click="show(46)" ng-attr-style="{{!matches(46) && const.reduceOpacity}}"><title>{{seats["46"].name}}</title></rect>
+          <rect x="69.4318" y="85.3409" rx="0.00" ry="0.00" width="14.32" height="14.32" ng-click="show(47)" ng-attr-style="{{!matches(47) && const.reduceOpacity}}"><title>{{seats["47"].name}}</title></rect>
+          <rect x="69.4318" y="101.2500" rx="0.00" ry="0.00" width="14.32" height="14.32" ng-click="show(48)" ng-attr-style="{{!matches(48) && const.reduceOpacity}}"><title>{{seats["48"].name}}</title></rect>
+          <rect x="69.4318" y="117.1591" rx="0.00" ry="0.00" width="14.32" height="14.32" ng-click="show(49)" ng-attr-style="{{!matches(49) && const.reduceOpacity}}"><title>{{seats["49"].name}}</title></rect>
+          <rect x="85.3409" y="85.3409" rx="0.00" ry="0.00" width="14.32" height="14.32" ng-click="show(50)" ng-attr-style="{{!matches(50) && const.reduceOpacity}}"><title>{{seats["50"].name}}</title></rect>
+          <rect x="85.3409" y="101.2500" rx="0.00" ry="0.00" width="14.32" height="14.32" ng-click="show(51)" ng-attr-style="{{!matches(51) && const.reduceOpacity}}"><title>{{seats["51"].name}}</title></rect>
+          <rect x="85.3409" y="117.1591" rx="0.00" ry="0.00" width="14.32" height="14.32" ng-click="show(52)" ng-attr-style="{{!matches(52) && const.reduceOpacity}}"><title>{{seats["52"].name}}</title></rect>
+          <rect x="101.2500" y="85.3409" rx="0.00" ry="0.00" width="14.32" height="14.32" ng-click="show(53)" ng-attr-style="{{!matches(53) && const.reduceOpacity}}"><title>{{seats["53"].name}}</title></rect>
+          <rect x="101.2500" y="101.2500" rx="0.00" ry="0.00" width="14.32" height="14.32" ng-click="show(54)" ng-attr-style="{{!matches(54) && const.reduceOpacity}}"><title>{{seats["54"].name}}</title></rect>
+          <rect x="101.2500" y="117.1591" rx="0.00" ry="0.00" width="14.32" height="14.32" ng-click="show(55)" ng-attr-style="{{!matches(55) && const.reduceOpacity}}"><title>{{seats["55"].name}}</title></rect>
+          <rect x="117.1591" y="85.3409" rx="0.00" ry="0.00" width="14.32" height="14.32" ng-click="show(56)" ng-attr-style="{{!matches(56) && const.reduceOpacity}}"><title>{{seats["56"].name}}</title></rect>
+          <rect x="117.1591" y="101.2500" rx="0.00" ry="0.00" width="14.32" height="14.32" ng-click="show(57)" ng-attr-style="{{!matches(57) && const.reduceOpacity}}"><title>{{seats["57"].name}}</title></rect>
+          <rect x="117.1591" y="117.1591" rx="0.00" ry="0.00" width="14.32" height="14.32" ng-click="show(58)" ng-attr-style="{{!matches(58) && const.reduceOpacity}}"><title>{{seats["58"].name}}</title></rect>
+          <rect x="133.0682" y="85.3409" rx="0.00" ry="0.00" width="14.32" height="14.32" ng-click="show(59)" ng-attr-style="{{!matches(59) && const.reduceOpacity}}"><title>{{seats["59"].name}}</title></rect>
+          <rect x="133.0682" y="101.2500" rx="0.00" ry="0.00" width="14.32" height="14.32" ng-click="show(60)" ng-attr-style="{{!matches(60) && const.reduceOpacity}}"><title>{{seats["60"].name}}</title></rect>
+          <rect x="133.0682" y="117.1591" rx="0.00" ry="0.00" width="14.32" height="14.32" ng-click="show(61)" ng-attr-style="{{!matches(61) && const.reduceOpacity}}"><title>{{seats["61"].name}}</title></rect>
+          <rect x="148.9773" y="85.3409" rx="0.00" ry="0.00" width="14.32" height="14.32" ng-click="show(62)" ng-attr-style="{{!matches(62) && const.reduceOpacity}}"><title>{{seats["62"].name}}</title></rect>
+          <rect x="148.9773" y="101.2500" rx="0.00" ry="0.00" width="14.32" height="14.32" ng-click="show(63)" ng-attr-style="{{!matches(63) && const.reduceOpacity}}"><title>{{seats["63"].name}}</title></rect>
+          <rect x="148.9773" y="117.1591" rx="0.00" ry="0.00" width="14.32" height="14.32" ng-click="show(64)" ng-attr-style="{{!matches(64) && const.reduceOpacity}}"><title>{{seats["64"].name}}</title></rect>
+          <rect x="164.8864" y="85.3409" rx="0.00" ry="0.00" width="14.32" height="14.32" ng-click="show(65)" ng-attr-style="{{!matches(65) && const.reduceOpacity}}"><title>{{seats["65"].name}}</title></rect>
+          <rect x="164.8864" y="101.2500" rx="0.00" ry="0.00" width="14.32" height="14.32" ng-click="show(66)" ng-attr-style="{{!matches(66) && const.reduceOpacity}}"><title>{{seats["66"].name}}</title></rect>
+          <rect x="164.8864" y="117.1591" rx="0.00" ry="0.00" width="14.32" height="14.32" ng-click="show(67)" ng-attr-style="{{!matches(67) && const.reduceOpacity}}"><title>{{seats["67"].name}}</title></rect>
+          <rect x="180.7955" y="85.3409" rx="0.00" ry="0.00" width="14.32" height="14.32" ng-click="show(68)" ng-attr-style="{{!matches(68) && const.reduceOpacity}}"><title>{{seats["68"].name}}</title></rect>
+          <rect x="180.7955" y="101.2500" rx="0.00" ry="0.00" width="14.32" height="14.32" ng-click="show(69)" ng-attr-style="{{!matches(69) && const.reduceOpacity}}"><title>{{seats["69"].name}}</title></rect>
+          <rect x="180.7955" y="117.1591" rx="0.00" ry="0.00" width="14.32" height="14.32" ng-click="show(70)" ng-attr-style="{{!matches(70) && const.reduceOpacity}}"><title>{{seats["70"].name}}</title></rect>
+          <rect x="196.7045" y="85.3409" rx="0.00" ry="0.00" width="14.32" height="14.32" ng-click="show(71)" ng-attr-style="{{!matches(71) && const.reduceOpacity}}"><title>{{seats["71"].name}}</title></rect>
+          <rect x="196.7045" y="101.2500" rx="0.00" ry="0.00" width="14.32" height="14.32" ng-click="show(72)" ng-attr-style="{{!matches(72) && const.reduceOpacity}}"><title>{{seats["72"].name}}</title></rect>
+          <rect x="196.7045" y="117.1591" rx="0.00" ry="0.00" width="14.32" height="14.32" ng-click="show(73)" ng-attr-style="{{!matches(73) && const.reduceOpacity}}"><title>{{seats["73"].name}}</title></rect>
+          <rect x="212.6136" y="85.3409" rx="0.00" ry="0.00" width="14.32" height="14.32" ng-click="show(74)" ng-attr-style="{{!matches(74) && const.reduceOpacity}}"><title>{{seats["74"].name}}</title></rect>
+          <rect x="212.6136" y="101.2500" rx="0.00" ry="0.00" width="14.32" height="14.32" ng-click="show(75)" ng-attr-style="{{!matches(75) && const.reduceOpacity}}"><title>{{seats["75"].name}}</title></rect>
+          <rect x="212.6136" y="117.1591" rx="0.00" ry="0.00" width="14.32" height="14.32" ng-click="show(76)" ng-attr-style="{{!matches(76) && const.reduceOpacity}}"><title>{{seats["76"].name}}</title></rect>
+          <rect x="228.5227" y="85.3409" rx="0.00" ry="0.00" width="14.32" height="14.32" ng-click="show(77)" ng-attr-style="{{!matches(77) && const.reduceOpacity}}"><title>{{seats["77"].name}}</title></rect>
+          <rect x="228.5227" y="101.2500" rx="0.00" ry="0.00" width="14.32" height="14.32" ng-click="show(78)" ng-attr-style="{{!matches(78) && const.reduceOpacity}}"><title>{{seats["78"].name}}</title></rect>
+          <rect x="228.5227" y="117.1591" rx="0.00" ry="0.00" width="14.32" height="14.32" ng-click="show(79)" ng-attr-style="{{!matches(79) && const.reduceOpacity}}"><title>{{seats["79"].name}}</title></rect>
+          <rect x="244.4318" y="85.3409" rx="0.00" ry="0.00" width="14.32" height="14.32" ng-click="show(80)" ng-attr-style="{{!matches(80) && const.reduceOpacity}}"><title>{{seats["80"].name}}</title></rect>
+          <rect x="244.4318" y="101.2500" rx="0.00" ry="0.00" width="14.32" height="14.32" ng-click="show(81)" ng-attr-style="{{!matches(81) && const.reduceOpacity}}"><title>{{seats["81"].name}}</title></rect>
+          <rect x="244.4318" y="117.1591" rx="0.00" ry="0.00" width="14.32" height="14.32" ng-click="show(82)" ng-attr-style="{{!matches(82) && const.reduceOpacity}}"><title>{{seats["82"].name}}</title></rect>
+          <rect x="260.3409" y="85.3409" rx="0.00" ry="0.00" width="14.32" height="14.32" ng-click="show(83)" ng-attr-style="{{!matches(83) && const.reduceOpacity}}"><title>{{seats["83"].name}}</title></rect>
+          <rect x="260.3409" y="101.2500" rx="0.00" ry="0.00" width="14.32" height="14.32" ng-click="show(84)" ng-attr-style="{{!matches(84) && const.reduceOpacity}}"><title>{{seats["84"].name}}</title></rect>
+          <rect x="260.3409" y="117.1591" rx="0.00" ry="0.00" width="14.32" height="14.32" ng-click="show(85)" ng-attr-style="{{!matches(85) && const.reduceOpacity}}"><title>{{seats["85"].name}}</title></rect>
+          <rect x="276.2500" y="85.3409" rx="0.00" ry="0.00" width="14.32" height="14.32" ng-click="show(86)" ng-attr-style="{{!matches(86) && const.reduceOpacity}}"><title>{{seats["86"].name}}</title></rect>
+        </g>
+      </g>
+      <g id="centerbench">
+        <g style="fill:#E6E6E6" id="Party 6">
+          <rect x="308.0682" y="13.7500" rx="0.00" ry="0.00" width="14.32" height="14.32" ng-click="show(87)" ng-attr-style="{{!matches(87) && const.reduceOpacity}}"><title>{{seats["87"].name}}</title></rect>
+          <rect x="323.9773" y="13.7500" rx="0.00" ry="0.00" width="14.32" height="14.32" ng-click="show(88)" ng-attr-style="{{!matches(88) && const.reduceOpacity}}"><title>{{seats["88"].name}}</title></rect>
+          <rect x="339.8864" y="21.7045" rx="0.00" ry="0.00" width="14.32" height="14.32" ng-click="show(89)" ng-attr-style="{{!matches(89) && const.reduceOpacity}}"><title>{{seats["89"].name}}</title></rect>
+          <rect x="308.0682" y="29.6591" rx="0.00" ry="0.00" width="14.32" height="14.32" ng-click="show(90)" ng-attr-style="{{!matches(90) && const.reduceOpacity}}"><title>{{seats["90"].name}}</title></rect>
+          <rect x="323.9773" y="29.6591" rx="0.00" ry="0.00" width="14.32" height="14.32" ng-click="show(91)" ng-attr-style="{{!matches(91) && const.reduceOpacity}}"><title>{{seats["91"].name}}</title></rect>
+          <rect x="339.8864" y="37.6136" rx="0.00" ry="0.00" width="14.32" height="14.32" ng-click="show(92)" ng-attr-style="{{!matches(92) && const.reduceOpacity}}"><title>{{seats["92"].name}}</title></rect>
+          <rect x="308.0682" y="45.5682" rx="0.00" ry="0.00" width="14.32" height="14.32" ng-click="show(93)" ng-attr-style="{{!matches(93) && const.reduceOpacity}}"><title>{{seats["93"].name}}</title></rect>
+          <rect x="323.9773" y="45.5682" rx="0.00" ry="0.00" width="14.32" height="14.32" ng-click="show(94)" ng-attr-style="{{!matches(94) && const.reduceOpacity}}"><title>{{seats["94"].name}}</title></rect>
+          <rect x="339.8864" y="53.5227" rx="0.00" ry="0.00" width="14.32" height="14.32" ng-click="show(95)" ng-attr-style="{{!matches(95) && const.reduceOpacity}}"><title>{{seats["95"].name}}</title></rect>
+          <rect x="308.0682" y="61.4773" rx="0.00" ry="0.00" width="14.32" height="14.32" ng-click="show(96)" ng-attr-style="{{!matches(96) && const.reduceOpacity}}"><title>{{seats["96"].name}}</title></rect>
+          <rect x="323.9773" y="61.4773" rx="0.00" ry="0.00" width="14.32" height="14.32" ng-click="show(97)" ng-attr-style="{{!matches(97) && const.reduceOpacity}}"><title>{{seats["97"].name}}</title></rect>
+          <rect x="339.8864" y="69.4318" rx="0.00" ry="0.00" width="14.32" height="14.32" ng-click="show(98)" ng-attr-style="{{!matches(98) && const.reduceOpacity}}"><title>{{seats["98"].name}}</title></rect>
+          <rect x="308.0682" y="77.3864" rx="0.00" ry="0.00" width="14.32" height="14.32" ng-click="show(99)" ng-attr-style="{{!matches(99) && const.reduceOpacity}}"><title>{{seats["99"].name}}</title></rect>
+          <rect x="323.9773" y="77.3864" rx="0.00" ry="0.00" width="14.32" height="14.32" ng-click="show(100)" ng-attr-style="{{!matches(100) && const.reduceOpacity}}"><title>{{seats["100"].name}}</title></rect>
+          <rect x="339.8864" y="85.3409" rx="0.00" ry="0.00" width="14.32" height="14.32" ng-click="show(101)" ng-attr-style="{{!matches(101) && const.reduceOpacity}}"><title>{{seats["101"].name}}</title></rect>
+          <rect x="308.0682" y="93.2955" rx="0.00" ry="0.00" width="14.32" height="14.32" ng-click="show(102)" ng-attr-style="{{!matches(102) && const.reduceOpacity}}"><title>{{seats["102"].name}}</title></rect>
+          <rect x="323.9773" y="93.2955" rx="0.00" ry="0.00" width="14.32" height="14.32" ng-click="show(103)" ng-attr-style="{{!matches(103) && const.reduceOpacity}}"><title>{{seats["103"].name}}</title></rect>
+          <rect x="339.8864" y="101.2500" rx="0.00" ry="0.00" width="14.32" height="14.32" ng-click="show(104)" ng-attr-style="{{!matches(104) && const.reduceOpacity}}"><title>{{seats["104"].name}}</title></rect>
+          <rect x="308.0682" y="109.2045" rx="0.00" ry="0.00" width="14.32" height="14.32" ng-click="show(105)" ng-attr-style="{{!matches(105) && const.reduceOpacity}}"><title>{{seats["105"].name}}</title></rect>
+          <rect x="323.9773" y="109.2045" rx="0.00" ry="0.00" width="14.32" height="14.32" ng-click="show(106)" ng-attr-style="{{!matches(106) && const.reduceOpacity}}"><title>{{seats["106"].name}}</title></rect>
+        </g>
+      </g>
+    </g>
+  </svg>
+  <h2 ng-show="selected">Seat Detail</h2>
+  <form ng-show="selected" name="myForm">
+    <input name="name" ng-model="selected.name" required>
+    <button ng-click="save()" ng-disabled="isClean() || myForm.$invalid" class="btn btn-primary">Save</button>
+  </form>
   </body>
 </html>
